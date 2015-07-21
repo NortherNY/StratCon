@@ -1,0 +1,50 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>S Conquest</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Strategic Conquest</h3>
+		<hr>
+		<button id="day-button">Run</button> 
+		| Day:<span id='game-day'></span>
+		| Red Units: <span id='game-red-units'></span>
+		| Blue Units: <span id='game-blue-units'></span>
+      </div>
+    </div>
+	<br><br>
+	<div id="game-board" >
+	</div>
+	
+	
+   
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="bower_components/jquery-ui/jquery-ui.js"></script>
+    
+	<!-- endbower -->
+    <!-- endbuild -->
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+		<script src="scripts/terrain.js"></script>
+		<script src="scripts/dragmanager.js"></script>
+		<script src="scripts/gameDB.js"></script>
+        <script src="scripts/city.js"></script>
+		<script src="scripts/cityManager.js"></script>
+		<script src="scripts/unit.js"></script>
+		<script src="scripts/unitManager.js"></script>
+		<script src="scripts/types.js"></script>
+		<script src="scripts/board.js"></script>
+	
+		<!-- endbuild -->
+</body>
+</html>

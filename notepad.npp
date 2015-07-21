@@ -1,0 +1,19 @@
+<NotepadPlus>
+    <Project name="Source">
+        <Folder name="Source">
+            <File name="app\scripts\board.js" />
+            <File name="app\scripts\city.js" />
+            <File name="app\scripts\cityManager.js" />
+            <File name="app\scripts\dragManager.js" />
+            <File name="app\scripts\gameDB.js" />
+            <File name="app\scripts\main.js" />
+            <File name="app\scripts\terrain.js" />
+            <File name="app\scripts\types.js" />
+            <File name="app\scripts\unit.js" />
+            <File name="app\scripts\unitManager.js" />
+        </Folder>
+        <Folder name="HTML">
+            <File name="app\index.html" />
+        </Folder>
+    </Project>
+</NotepadPlus>
